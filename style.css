@@ -148,6 +148,9 @@ margin-right: .3rem;
 }
 .feedback__link{
     color: #717FFF;
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 .btn{
     font-style: normal;
@@ -170,9 +173,12 @@ margin-right: .3rem;
     background: linear-gradient(0deg, #717FFF, #717FFF);
 }
 @media  (min-width: 320px) and (max-width: 640px) {
+    .content{
+        margin: 2rem;
+    }
   .info__field{
       flex-direction: column;
-      padding: 1.5rem;
+      padding: 1rem;
   }
   .info{
       margin-top: .5rem;
