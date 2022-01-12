@@ -191,7 +191,7 @@ margin-right: .3rem;
        flex-direction: column;
    }
    .feedback__link{
-    margin: 0 .4rem;
+    margin-bottom: 1.5rem;
 }
 .buttons{
     display: flex;
