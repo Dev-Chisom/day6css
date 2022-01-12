@@ -173,6 +173,10 @@ margin-right: .3rem;
     background: linear-gradient(0deg, #717FFF, #717FFF);
 }
 @media  (min-width: 320px) and (max-width: 640px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
     .content{
         margin: 2rem;
     }
